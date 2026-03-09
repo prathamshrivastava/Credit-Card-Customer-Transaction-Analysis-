@@ -29,6 +29,14 @@ As a Data Analyst, the task is to:
 3. Analyze key financial and customer metrics
 4. Build dashboards and insights for stakeholders
 
+Tools & Technologies
+This project uses the following tools:
+🐍 Python (Data generation & preprocessing)
+🐼 Pandas
+🎭 Faker (Synthetic data generation)
+🗄 SQL (Data analysis queries)
+📊 Power BI / Tableau (Visualization)
+
 Dataset Structure
 The project contains four relational tables similar to those used in banking systems.
 
@@ -136,33 +144,6 @@ Risk & Delinquency Analysis
 2. Relationship between credit score and delinquency
 3. Accounts likely to default
 
-Tools & Technologies
-This project uses the following tools:
-🐍 Python (Data generation & preprocessing)
-🐼 Pandas
-🎭 Faker (Synthetic data generation)
-🗄 SQL (Data analysis queries)
-📊 Power BI / Tableau (Visualization)
-
-📁 Repository Structure
-credit-card-analytics-project
-│
-├── data
-│   ├── customers_dirty.csv
-│   ├── cards_dirty.csv
-│   ├── transactions_dirty.csv
-│   └── payments_dirty.csv
-│
-├── scripts
-│   └── data_generator.py
-│
-├── sql
-│   └── analysis_queries.sql
-│
-├── dashboards
-│   └── powerbi_dashboard.pbix
-│
-└── README.md
 
 Future Improvements
 Planned enhancements for this project include:
